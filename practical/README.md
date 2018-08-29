@@ -23,7 +23,6 @@ To develop, test and deploy the app, you need the next dependencies
 ```bash
 # In Debian based linux
 sudo apt-get install -y docker 
-
 # In RHEL based linux
 sudo yum install -y docker
 ```
@@ -33,7 +32,6 @@ sudo yum install -y docker
 # In Debian based linux
 sudo apt-get install ruby-full
 gem install rails
-
 # In RHEL based linux
 sudo yum install ruby
 gem install rails
@@ -43,7 +41,6 @@ gem install rails
 ```bash
 # In Debian based linux
 sudo apt-get install nodejs npm
-
 # In RHEL based linux
 sudo yum install nodejs
 ```
