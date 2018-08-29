@@ -55,7 +55,6 @@ sudo npm install yarn -g
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
-
 # In RHEL based linux
 # Normally java 8 comes with RHEL but is important check the version
 java -version
@@ -67,7 +66,6 @@ yum install java-1.8.0-openjdk
 ```bash
 # In Debian based linux
 sudo apt-get install mvn
-
 # In RHEL based linux
 sudo yum install mvn
 ```
