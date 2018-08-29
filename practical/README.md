@@ -18,7 +18,7 @@ If you want only test the app, only require docker. If you have docker, please g
 Let's go!
 ## Dependencies
 To develop, test and deploy the app, you need the next dependencies
-- #### Install Docker
+- Install Docker
 
 ```bash
 # In Debian based linux
@@ -28,7 +28,7 @@ sudo apt-get install -y docker
 sudo yum install -y docker
 ```
 
-- #### Install Ruby and Ruby on Rails
+- Install Ruby and Ruby on Rails
 ```bash
 # In Debian based linux
 sudo apt-get install ruby-full
@@ -39,7 +39,7 @@ sudo yum install ruby
 gem install rails
 ```
 
-- #### Install Nodejs and NPM
+- Install Nodejs and NPM
 ```bash
 # In Debian based linux
 sudo apt-get install nodejs npm
@@ -47,12 +47,12 @@ sudo apt-get install nodejs npm
 # In RHEL based linux
 sudo yum install nodejs
 ```
-- #### Install yarn
+- Install yarn
 ```bash
 sudo npm install yarn -g
 ```
 
-- #### Install JAVA 8
+- Install JAVA 8
 ```bash
 # In Debian based linux
 sudo add-apt-repository ppa:webupd8team/java
@@ -66,7 +66,7 @@ java -version
 yum install java-1.8.0-openjdk
 ```
 
-- #### Install Maven
+- Install Maven
 ```bash
 # In Debian based linux
 sudo apt-get install mvn
