@@ -19,6 +19,7 @@ Let's go!
 ## Dependencies
 To develop, test and deploy the app, you need the next dependencies
 - #### Install Docker
+
 ```bash
 # In Debian based linux
 sudo apt-get install -y docker 
