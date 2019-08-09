@@ -1,4 +1,4 @@
-# ![logo](https://github.com/LemontechSA/test-full-stack-angelo/blob/develop/practical/thot-ui/src/assets/head-thot.png) Arquitectura de la app
+# ![logo](https://github.com/LemontechSA/test-fullstack-angelo-calvo/blob/develop/practical/thot-ui/src/assets/head-thot.png) Arquitectura de la app
 
 ## Acotación
 
