@@ -1,4 +1,4 @@
-# ![logo](https://gitlab.com/acalvoa/lemontech-test/raw/master/practical/thot-ui/src/assets/head-thot.png) Thot
+# ![logo](https://github.com/LemontechSA/test-fullstack-angelo-calvo/raw/master/practical/thot-ui/src/assets/head-thot.png) Thot
 ## String Comparator System
 ## Introduction
 Thot is an web app made to execute an operations in strings extensible to any operation you want. 
