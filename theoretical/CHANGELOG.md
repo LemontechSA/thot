@@ -1,3 +1,0 @@
-- [Theoretical: Add the Sql responses](https://github.com/LemontechSA/test-full-stack-angelo/pull/38) [23/08/2018]
-- [Theoretical: Write the datam model](https://github.com/LemontechSA/test-full-stack-angelo/pull/37) [23/08/2018]
-- [Feature: Add Theoretical folder](https://github.com/LemontechSA/test-full-stack-angelo/pull/6) [17/08/2018]
