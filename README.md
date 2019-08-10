@@ -1,23 +1,20 @@
-# ![logo](https://github.com/LemontechSA/test-fullstack-angelo-calvo/raw/master/practical/thot-ui/src/assets/head-thot.png) Thot
+# ![logo](https://github.com/LemontechSA/thot/raw/master/thot-ui/src/assets/head-thot.png) Thot
 ## String Comparator System
 ## Introduction
-Thot is an web app made to execute an operations in strings extensible to any operation you want. 
+Thot is a web app to execute operations in strings extensible to any operation you want. 
 
-It built in React, Ruby on Rails and Java spark simulate a Frontend-Backend interation with an integration with remote operation REST service server (Siwa).
+It is built using React, Ruby on Rails and Java spark to simulate a Frontend-Backend interation with an integration with remote operation REST service server (Siwa).
 
-This project it's the resolution of FullStack practical test.
+View all the changes realized in CHANGELOG.md
 
-View all the changes realized in the time, in the CHANGELOG.md
-
-If you are my code reviewer, Enjoy that! 
 ## Get Started
-If you want review the code in the app, probably you want start the app in developer mode. If you want follow this way, please folow the instructions detailed in **Dependencies** and **Development Environment**.
+If you want to review the code in the app, probably you want to start the app in developer mode. Please folow the instructions detailed in **Dependencies** and **Development Environment**.
 
-If you want only test the app, only require docker. If you have docker, please go to **Deploy Instructions** and follow the instructions.
+If you only want to test the app, please go to **Deploy Instructions** and follow the instructions.
 
 Let's go!
 ## Dependencies
-To develop, test and deploy the app, you need the next dependencies
+To develop, test and deploy the app, you need the following dependencies
 - Install Docker
 
 ```bash
@@ -71,32 +68,32 @@ sudo yum install mvn
 ```
 
 ## Develop environment
-To use the development environment you must start the docker container, that contain the database. To do this you must write the next command.
+To use the development environment you must start the docker container that contains the database. To do this you need to write the following command.
 
 ```bash
 docker-compose up -d
 ```
 
-To start Thot Rails app, you must enter to thot directory and execute the next command.
+To start Thot Rails app, you must enter to thot directory and execute the following command.
 
 ```bash
 rails server
 ```
 
-To start Thot-ui React app, you must enter to thot-ui directory and execute the next command.
+To start Thot-ui React app, you must enter to thot-ui directory and execute the following command.
 
 ```bash
 yarn start
 ```
 
-To start Siwa Spark app, you must enter to thot directory and execute the next command.
+To start Siwa Spark app, you must enter to thot directory and execute the following command.
 
 ```bash
 mvn clean package
 java -jar /target/siwa-jar-with-dependencies.jar
 ```
 
-The database tools and the app will be available in the local machine in the next locations. 
+The database tools and the app will be available in the local machine in the following locations. 
 
 ```bash
 # Thot-ui App
@@ -110,13 +107,13 @@ http://localhost:7000
 ```
 
 ## Deploy Instructions
-To deploy and testing, Thot App and Siwa you must run the next commands
+To deploy and test, Thot App and Siwa you need to run the following commands
 
 ```bash
 docker-compose -f docker-compose.production.yml build
 docker-compose -f docker-compose.production.yml up -d
 ```
-The Thot and Siwa app are available in the next locations
+The Thot and Siwa app are available in the following locations
 
 ```bash
 # Thot-ui App
@@ -130,9 +127,9 @@ http://localhost:7000
 ```
 
 ## Api Documentation
-Both Siwa and Thot,  in production mode, have an API REST Reference manual built with Apidoc. In this manual you can see the reference of both API's.
+Both Siwa and Thot,  when in production mode, have an API REST Reference manual built with Apidoc. In this manual you can see the reference of both APIs.
 
-To access to reference, deploy the project in production docker mode and go with your browser to:
+To access the reference, deploy the project in production docker mode and open the following links:
 
 ```bash
 # Siwa Splash screem
@@ -142,7 +139,7 @@ http://localhost:8080/api/
 ```
 
 ## Testing
-To testing Siwa use Junit and maven
+To test Siwa use Junit and maven
 
 ```bash 
 mvn test
@@ -154,8 +151,8 @@ To test RoR App use Rspec
 bundle exec rspec
 ```
 
-## How Works
-Thot and Siwa works like an API Services Servers, working in paralel like two remotes servers. The client app load a app Built with React, and work like another server instance. The three parts are separated and comunicates between them across RESTFul services built in them.
+## How it Works
+Thot and Siwa work like an API Services Servers, working in paralel like two remotes servers. The client app load an app built with React, and works like another server instance. The three parts are separated and comunicate between them across RESTFul services built in them.
 
 To simulate this environment we use docker to set each application in a separate container, simulating with this way the servers and his properties.
 
@@ -163,9 +160,6 @@ If your want more information about the functionality and software arquitecture 
 
 ## License
 MIT
-
-## Developer words
-In the App, I writed an paragraph of gratitude. If you want to see **follow the white rabbit**.
 
 ## To
 Made with <span style="color:red;">❤</span> for Lemontech and <span look-in="thot-ui you are close">🐇</span>
