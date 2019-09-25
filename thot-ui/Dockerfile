@@ -1,5 +1,5 @@
 # Use a node image
-FROM node AS builder
+FROM node:8.16 AS builder
 # Install yarn
 RUN npm install yarn -g
 # Define the work directory
@@ -11,7 +11,7 @@ RUN rm src/config/config.ts
 # Put prod env file
 RUN mv src/config/config.prod.ts src/config/config.ts 
 # Install yarn
-RUN yarn install
+RUN npm install
 # Build the project
 RUN yarn build
 
